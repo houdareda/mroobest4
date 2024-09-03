@@ -238,6 +238,19 @@ html {
   }
 
 
+  .doctor .abslute_sec{
+    position: absolute;
+    bottom: 4vw;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .doctor .abslute_sec .text h5{
+    font-size: 6vw;
+    color: #A01D50;
+  }
+
 
 
 
@@ -691,19 +704,19 @@ body.thanks_page_page{
 .thanks_page h3{
   font-size: 22px;
   margin: 0;
-  color: #BE2525;
+  color: #fff;
 }
 .thanks_page p{
   font-size: 14px;
-  margin-bottom: 5px;
-  color: #113543;
+  margin-bottom: 15px;
+  color: #fff;
 }
 .thanks_page a{
   display: block;
   padding: 5px 30px;
   font-size: 20px;
   color: #fff;
-  background: #113543;
+  background: #A01D50;
   width: max-content;
   border-radius: 10px;
   margin: 0 auto 20px;
