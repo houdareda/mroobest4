@@ -94,7 +94,7 @@ html {
   position: relative;
   text-align: center;
   margin-bottom: 30px;
-  font-size: 4vw;
+  font-size: 4.2vw;
   width: max-content;
   line-height: 1;
   margin-inline: auto;
@@ -134,7 +134,7 @@ html {
   }
 
   .result .top_result{
-    padding: 20px 5%;
+    padding: 8px 5% 20px;
     text-align: center;
   }
 
@@ -176,7 +176,7 @@ html {
   }
   .doctor .text_doctor h3{
     color: #fff;
-    font-size: 4.3vw;
+    font-size: 4vw;
     padding-right: 10px;
   }
 
@@ -190,7 +190,7 @@ html {
   .doctor .text_doctor .bg_white h3{
     color: #A01D52;
     line-height: 1.4;
-    font-size: 4vw;
+    font-size: 3.7vw;
     padding-right: 0;
   }
 
@@ -277,7 +277,7 @@ html {
 
   .how_work .how_work_text p{
     font-size: 3.5vw;
-    margin-bottom: 15px;
+    margin-bottom: 17px;
     color: #A01D50;
   }
   .how_work .how_work_text h5{
@@ -363,6 +363,7 @@ html {
   position: relative;
   right: 3%;
   padding-bottom: 5vw;
+  top: 8px;
   
 }
 
@@ -397,7 +398,7 @@ html {
 
 
 .last_sec .sm-p {
-  font-size: 2.45vw;
+  font-size: 2.4vw;
   text-align: center;
   width: 95%;
   margin: auto;
@@ -461,6 +462,7 @@ html {
   color: #fff;
   font-size: 7vw;
   font-weight: bolder;
+  padding: 6px 30px;
 }
 
 .last_sec .footer .boxs {
