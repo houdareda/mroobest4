@@ -226,15 +226,9 @@ html {
     border-radius: 20px;
   }
   .doctor .div-btn .btn .img_btn{
-    width: 50px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0 5px;
   }
   .doctor .div-btn .btn .txett{
-    width: calc(100% - 50px);
     padding: 8px 12px 6px;
     color: #A01D50;
     background: linear-gradient(to left, #FDE2DF, #FDE3E1);
@@ -258,7 +252,7 @@ html {
   background-size: cover;
   background-position: top center;
   } 
-  .how_work img{
+  .how_work .top_how_img{
     position: relative;
     box-shadow: 5px 5px 10px #0000004e;
     z-index: 2;
