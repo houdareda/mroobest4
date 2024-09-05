@@ -251,7 +251,9 @@ html {
     color: #A01D50;
   }
 
-
+  .doctor .abslute_sec img{
+    width: 5vw;
+  }
 
 
 
@@ -746,4 +748,8 @@ body.thanks_page_page{
     background-position: center;
     min-height: 100vh;
   }
+}
+
+.my2Swiper22{
+  direction: ltr;
 }

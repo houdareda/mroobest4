@@ -8,6 +8,7 @@
 
     <!-- File Css -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="swiper js/swiper-bundle.min.css" />
 
     <link rel="shortcut icon" href="img/product22.png" type="image/x-icon" />
   </head>
@@ -92,7 +93,7 @@
       </div>
 
       <div class="abslute_sec">
-        <img src="" alt="">
+        <img src="img/55.png" alt="">
         <div class="text">
           <h5>تــــــابع</h5>
           <h5>النتائج</h5>
@@ -112,9 +113,31 @@
       <div class="bottom_result">
 
         <div class="img_results">
-          <img src="img/result1.png" alt="">
 
-          <img class="img2" src="img/result2.png" alt="">
+
+          <div class="swiper mySwiper">
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/result1.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/result2.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/result3.png" alt=""></div>
+            </div>
+
+
+
+          </div>
+
+          <div class="swiper mySwiper my2Swiper22">
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/result4.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/result5.png" alt=""></div>
+              <div class="swiper-slide"><img src="img/result6.png" alt=""></div>
+
+            </div>
+
+            
+          </div>
 
         </div>
 
@@ -357,5 +380,38 @@
 
     <!-- js -->
     <script src="js/script.js"></script>
+    <script src="swiper js/swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 4,
+  spaceBetween:30,
+  autoplay:{
+     delay:2000,
+     disableOnInteraction: false,
+  },
+  navigation:{
+      nextEl:".swiper-button-next",
+      prevEl:".swiper-button-prev"
+  },
+  loop:true,
+  breakpoints:{
+    1200:{
+      slidesPerView: 3,
+      spaceBetween:30,
+    },
+    900:{
+      slidesPerView: 3,
+    },
+    600:{
+      slidesPerView: 2,
+      spaceBetween:15,
+    },
+    0:{
+      slidesPerView: 1,
+      spaceBetween:0
+    },
+  }
+});
+    </script>
   </body>
 </html>
